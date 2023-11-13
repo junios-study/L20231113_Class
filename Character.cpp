@@ -4,12 +4,12 @@
 FCharacter::FCharacter()
 {
 	HP = 100;
-	std::cout << "»ý¼ºµÊ" << std::endl;
+	std::cout << "Ä³¸¯ÅÍ »ý¼ºµÊ" << std::endl;
 }
 
 FCharacter::~FCharacter()
 {
-	std::cout << "ÆÄ±«µÊ" << std::endl;
+	std::cout << "Ä³¸¯ÅÍ ÆÄ±«µÊ" << std::endl;
 }
 
 void FCharacter::Move()

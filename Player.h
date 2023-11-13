@@ -7,3 +7,7 @@ public:
 	FPlayer();
 	~FPlayer();
 };
+
+//Player is a Character.
+//Goblin is a Character.
+//Character is a Player.

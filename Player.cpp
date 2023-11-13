@@ -4,10 +4,10 @@
 FPlayer::FPlayer()
 {
 	HP = 100;
-	std::cout << "»ý¼ºµÊ" << std::endl;
+	std::cout << "ÇÃ·¹ÀÌ¾î »ý¼ºµÊ" << std::endl;
 }
 
 FPlayer::~FPlayer()
 {
-	std::cout << "ÆÄ±«µÊ" << std::endl;
+	std::cout << "ÇÃ·¹ÀÌ¾î ÆÄ±«µÊ" << std::endl;
 }
