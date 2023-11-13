@@ -13,5 +13,6 @@ FSlime::~FSlime()
 
 void FSlime::Move()
 {
-	std::cout << "슬라임이 움직인다." << std::endl;
+	std::cout << "슬라임이 ";
+	FCharacter::Move();
 }

@@ -6,6 +6,6 @@ public:
 	FSlime();
 	~FSlime();
 
-	void Move();
+	virtual void Move() override;
 };
 

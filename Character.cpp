@@ -14,5 +14,5 @@ FCharacter::~FCharacter()
 
 void FCharacter::Move()
 {
-	std::cout << "캐릭터가 움직인다" << std::endl;
+	std::cout << "움직인다" << std::endl;
 }

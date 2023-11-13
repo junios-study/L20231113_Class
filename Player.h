@@ -7,7 +7,7 @@ public:
 	FPlayer();
 	~FPlayer();
 
-	void Move();
+	virtual void Move() override;
 };
 
 //Player is a Character.

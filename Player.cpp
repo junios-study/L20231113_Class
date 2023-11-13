@@ -14,6 +14,7 @@ FPlayer::~FPlayer()
 
 void FPlayer::Move()
 {
-	std::cout << "플레이어 움직인다." << std::endl;
+	std::cout << "플레이어 ";
+	FCharacter::Move();
 
 }
