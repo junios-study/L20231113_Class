@@ -1,13 +1,13 @@
-#include "Player.h"
+#include "Goblin.h"
 #include <iostream>
 
-FPlayer::FPlayer()
+FGoblin::FGoblin()
 {
 	HP = 100;
 	std::cout << "»ý¼ºµÊ" << std::endl;
 }
 
-FPlayer::~FPlayer()
+FGoblin::~FGoblin()
 {
 	std::cout << "ÆÄ±«µÊ" << std::endl;
 }
